@@ -1,0 +1,31 @@
+{
+  "name": "test-react",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/uuid": "^8.3.4",
+    "@vitejs/plugin-react": "^1.0.7",
+    "csstype": "^3.0.11",
+    "eslint": "^8.11.0",
+    "eslint-config-furman-react-ts": "^1.0.6",
+    "prettier": "^2.6.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.8.0"
+  }
+}
